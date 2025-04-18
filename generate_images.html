@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Generate Sample Images</title>
+    <style>
+        body {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            background-color: #f0f0f0;
+            padding: 20px;
+        }
+        canvas {
+            border: 1px solid #ccc;
+            margin: 10px;
+            background-color: white;
+        }
+        button {
+            margin: 20px;
+            padding: 10px 20px;
+            font-size: 16px;
+            background-color: #2c1810;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+        button:hover {
+            background-color: #3d2317;
+        }
+    </style>
+</head>
+<body>
+    <h1>Wooden Building Image Generator</h1>
+    <p>Click the button below to download the images</p>
+    <div id="canvas-container"></div>
+    <button onclick="downloadImages()">Download Images</button>
+
+    <script>
+        function drawWoodenBuilding(canvas, style) {
+            const ctx = canvas.getContext('2d');
+            ctx.fillStyle = '#f4f4f4';
+            ctx.fillRect(0, 0, canvas.width, canvas.height);
+
+            // Draw wooden texture background
+            ctx.fillStyle = '#8B4513';
+            for(let i = 0; i < canvas.width; i += 20) {
+                ctx.fillRect(i, 0, 10, canvas.height);
+            }
+
+            // Draw building
+            ctx.fillStyle = style.color;
+            ctx.fillRect(200, 100, 400, 400);
+
+            // Draw windows
+            ctx.fillStyle = '#87CEEB';
+            for(let i = 0; i < 3; i++) {
+                for(let j = 0; j < 2; j++) {
+                    ctx.fillRect(250 + i*120, 150 + j*150, 60, 80);
+                }
+            }
+
+            // Draw roof
+            ctx.beginPath();
+            ctx.moveTo(150, 100);
+            ctx.lineTo(400, 50);
+            ctx.lineTo(650, 100);
+            ctx.fillStyle = '#4A2505';
+            ctx.fill();
+        }
+
+        // Create and draw canvases
+        const container = document.getElementById('canvas-container');
+        for(let i = 1; i <= 3; i++) {
+            const canvas = document.createElement('canvas');
+            canvas.id = `canvas${i}`;
+            canvas.width = 800;
+            canvas.height = 600;
+            container.appendChild(canvas);
+            drawWoodenBuilding(canvas, {
+                color: i === 1 ? '#8B4513' : i === 2 ? '#A0522D' : '#6B4423'
+            });
+        }
+
+        function downloadImages() {
+            ['canvas1', 'canvas2', 'canvas3'].forEach((id, index) => {
+                const link = document.createElement('a');
+                link.download = `wooden-building-${index + 1}.jpg`;
+                link.href = document.getElementById(id).toDataURL('image/jpeg', 0.8);
+                link.click();
+            });
+        }
+    </script>
+</body>
+</html> 
