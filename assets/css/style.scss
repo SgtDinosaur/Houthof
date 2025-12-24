@@ -3,7 +3,7 @@
 
 $color-ink: #1c110c;
 $color-muted: #4a3d37;
-$color-accent: #c47a3f;
+$color-accent: #d4af6a;
 $color-soft: #f5ede4;
 $color-surface: #ffffff;
 $color-line: #e5dcd4;
@@ -149,15 +149,15 @@ footer {
   gap: 0.4rem;
   padding: 0.75rem 1.1rem;
   border-radius: 12px;
-  background: $color-accent;
-  color: #fff;
+  background: linear-gradient(135deg, lighten($color-accent, 6%), darken($color-accent, 6%));
+  color: #3a2a14;
   font-weight: 600;
-  border: 1px solid transparent;
+  border: 1px solid rgba(0, 0, 0, 0.08);
   transition: transform 0.2s ease, box-shadow 0.2s ease, background 0.2s ease;
 
   &:hover {
     transform: translateY(-1px);
-    box-shadow: 0 10px 30px rgba(196, 122, 63, 0.25);
+    box-shadow: 0 12px 28px rgba(0, 0, 0, 0.18);
   }
 
   &--ghost {
@@ -365,19 +365,7 @@ footer {
 }
 
 .coming-hero__badge {
-  position: absolute;
-  top: 1.2rem;
-  left: 1.2rem;
-  background: rgba(0, 0, 0, 0.55);
-  color: #f4f1eb;
-  padding: 0.65rem 1rem;
-  border-radius: 999px;
-  font-weight: 800;
-  letter-spacing: 0.06em;
-  text-transform: uppercase;
-  font-size: 1rem;
-  border: 1px solid rgba(255, 255, 255, 0.1);
-  box-shadow: 0 12px 28px rgba(0, 0, 0, 0.25);
+  display: none;
 }
 
 .coming-hero__headline {

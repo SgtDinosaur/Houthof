@@ -12,7 +12,6 @@ hero_image: "/assets/images/coming-soon.png"
     <div class="coming-hero__media">
       <img class="coming-hero__img" src="{{ page.hero_image | relative_url }}" alt="Houthof coming soon">
       <div class="coming-hero__overlay"></div>
-      <div class="coming-hero__badge">Houthof</div>
       <div class="coming-hero__headline">
         <p class="headline-kicker">Houthof</p>
         <p class="headline-main">Coming soon</p>
