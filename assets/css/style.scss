@@ -389,17 +389,20 @@ footer {
   text-align: center;
   text-transform: uppercase;
   letter-spacing: 0.08em;
-  gap: 0.35rem;
+  gap: 0.4rem;
 
   .headline-kicker {
-    font-size: clamp(1.4rem, 3vw, 2rem);
-    font-weight: 800;
+    font-size: clamp(3.2rem, 8vw, 5.6rem);
+    font-weight: 900;
+    line-height: 1.05;
+    text-shadow: 0 16px 40px rgba(0, 0, 0, 0.35);
   }
 
   .headline-main {
-    font-size: clamp(2.8rem, 6vw, 4.8rem);
-    font-weight: 900;
-    text-shadow: 0 14px 35px rgba(0, 0, 0, 0.35);
+    font-size: clamp(1.6rem, 3vw, 2.4rem);
+    font-weight: 800;
+    line-height: 1.1;
+    text-shadow: 0 10px 28px rgba(0, 0, 0, 0.32);
   }
 }
 
