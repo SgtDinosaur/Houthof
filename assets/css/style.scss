@@ -323,22 +323,22 @@ footer {
 }
 
 .coming-page {
-  background: radial-gradient(circle at 20% 20%, rgba(255, 255, 255, 0.08), rgba(0, 0, 0, 0)) repeat, #0f0e0c;
+  background: radial-gradient(circle at 50% 50%, rgba(0, 0, 0, 0.2) 0%, rgba(0, 0, 0, 0.45) 55%, #0f0e0c 100%);
 }
 
 .coming-hero {
   width: 100%;
   min-height: 100vh;
   margin: 0;
-  padding: 2.5rem 1.25rem;
+  padding: clamp(1rem, 4vw, 2rem) 1rem;
   display: grid;
   place-items: center;
 }
 
 .coming-frame {
   position: relative;
-  width: min(1100px, 100%);
-  aspect-ratio: 16 / 9;
+  width: min(1400px, 95vw);
+  height: clamp(70vh, 80vw, 90vh);
   border-radius: 22px;
   overflow: hidden;
   background: linear-gradient(145deg, rgba(255, 255, 255, 0.08), rgba(255, 255, 255, 0.02));
@@ -416,11 +416,12 @@ footer {
 }
 
 @media (max-width: 720px) {
-  .hero {
-    padding: 2rem;
+  .coming-frame {
+    height: 78vh;
+    border-radius: 18px;
   }
 
-  h1 {
-    font-size: 2rem;
+  .coming-hero__headline {
+    gap: 0.3rem;
   }
 }
