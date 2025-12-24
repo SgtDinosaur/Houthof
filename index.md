@@ -13,6 +13,10 @@ hero_image: "/assets/images/coming-soon.png"
       <img class="coming-hero__img" src="{{ page.hero_image | relative_url }}" alt="Houthof coming soon">
       <div class="coming-hero__overlay"></div>
       <div class="coming-hero__badge">Houthof</div>
+      <div class="coming-hero__headline">
+        <p class="headline-kicker">Houthof</p>
+        <p class="headline-main">Coming soon</p>
+      </div>
       <div class="coming-cta coming-cta--overlay">
         <a class="button" href="mailto:q.odding@outlook.com">Contact</a>
       </div>

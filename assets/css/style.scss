@@ -366,17 +366,41 @@ footer {
 
 .coming-hero__badge {
   position: absolute;
-  top: 1rem;
-  left: 1rem;
+  top: 1.2rem;
+  left: 1.2rem;
   background: rgba(0, 0, 0, 0.55);
   color: #f4f1eb;
-  padding: 0.55rem 0.9rem;
+  padding: 0.65rem 1rem;
   border-radius: 999px;
-  font-weight: 700;
+  font-weight: 800;
   letter-spacing: 0.06em;
   text-transform: uppercase;
-  font-size: 0.9rem;
+  font-size: 1rem;
   border: 1px solid rgba(255, 255, 255, 0.1);
+  box-shadow: 0 12px 28px rgba(0, 0, 0, 0.25);
+}
+
+.coming-hero__headline {
+  position: absolute;
+  inset: 0;
+  display: grid;
+  place-items: center;
+  color: #fff;
+  text-align: center;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  gap: 0.35rem;
+
+  .headline-kicker {
+    font-size: clamp(1.4rem, 3vw, 2rem);
+    font-weight: 800;
+  }
+
+  .headline-main {
+    font-size: clamp(2.8rem, 6vw, 4.8rem);
+    font-weight: 900;
+    text-shadow: 0 14px 35px rgba(0, 0, 0, 0.35);
+  }
 }
 
 .coming-cta {
