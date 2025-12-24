@@ -315,6 +315,60 @@ footer {
   flex-wrap: wrap;
 }
 
+.coming-page {
+  background: #0f0e0c;
+}
+
+.coming-hero {
+  width: 100%;
+  min-height: 100vh;
+  margin: 0;
+  padding: 0;
+}
+
+.coming-hero__media {
+  position: relative;
+  width: 100%;
+  min-height: 100vh;
+  background-size: cover;
+  background-position: center;
+  display: grid;
+  place-items: center;
+}
+
+.coming-hero__overlay {
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(180deg, rgba(0, 0, 0, 0.05) 0%, rgba(0, 0, 0, 0.35) 100%);
+  mix-blend-mode: multiply;
+}
+
+.coming-hero__content {
+  position: relative;
+  z-index: 1;
+  text-align: center;
+  color: #fff;
+  padding: 2rem;
+  max-width: 720px;
+
+  h1 {
+    font-size: clamp(2.4rem, 5vw, 3.8rem);
+    letter-spacing: 0.04em;
+    margin-bottom: 0.6rem;
+    text-transform: uppercase;
+  }
+
+  .lede {
+    color: rgba(255, 255, 255, 0.88);
+  }
+}
+
+.coming-cta {
+  margin-top: 1rem;
+  display: flex;
+  justify-content: center;
+}
+
 @media (max-width: 720px) {
   .hero {
     padding: 2rem;

@@ -1,45 +1,22 @@
 ---
 layout: default
-title: Houthof — Houten hofjes
-gallery:
-  - title: Binnenhofje Licht
-    caption: "Houten hofje rondom een open binnentuin met zachte sparren."
-    image: "data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='1400' height='900' viewBox='0 0 1400 900'><defs><linearGradient id='bgA' x1='0' y1='0' x2='1' y2='1'><stop offset='0%' stop-color='%23f5f0e7'/><stop offset='100%' stop-color='%23e2d4c2'/></linearGradient><linearGradient id='woodA' x1='0' y1='0' x2='1' y2='0'><stop offset='0%' stop-color='%238a4a25'/><stop offset='100%' stop-color='%2358341c'/></linearGradient><linearGradient id='greenA' x1='0' y1='0' x2='0' y2='1'><stop offset='0%' stop-color='%2385a86f'/><stop offset='100%' stop-color='%235b7a4d'/></linearGradient></defs><rect width='1400' height='900' fill='url(%23bgA)'/><rect x='180' y='260' width='1040' height='380' rx='26' fill='url(%23woodA)' opacity='0.95'/><rect x='240' y='320' width='920' height='260' rx='20' fill='%23f7f2eb'/><rect x='260' y='340' width='280' height='180' fill='%23e9f5ff' opacity='0.9'/><rect x='540' y='340' width='280' height='180' fill='%23e4f0ff' opacity='0.9'/><rect x='820' y='340' width='280' height='180' fill='%23e9f5ff' opacity='0.9'/><rect x='260' y='520' width='840' height='40' fill='%23c9b296' opacity='0.85'/><rect x='580' y='260' width='240' height='70' rx='16' fill='%23f2d4a5' opacity='0.9'/><circle cx='700' cy='450' r='130' fill='url(%23greenA)' opacity='0.8'/><rect x='640' y='380' width='120' height='140' fill='%23b5d7b2' opacity='0.5'/><circle cx='1180' cy='190' r='70' fill='%23f2cda1' opacity='0.95'/></svg>"
-  - title: Hof aan het Water
-    caption: "Houtbouw rond een langgerekte, met bomen gevulde binnenstraat."
-    image: "data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='1400' height='900' viewBox='0 0 1400 900'><defs><linearGradient id='bgB' x1='0' y1='0' x2='0' y2='1'><stop offset='0%' stop-color='%23ecf4ff'/><stop offset='100%' stop-color='%23cfdde9'/></linearGradient><linearGradient id='woodB' x1='0' y1='0' x2='1' y2='0'><stop offset='0%' stop-color='%23884a24'/><stop offset='100%' stop-color='%2352301a'/></linearGradient><linearGradient id='greenB' x1='0' y1='0' x2='1' y2='0'><stop offset='0%' stop-color='%2386b28c'/><stop offset='100%' stop-color='%235f8c63'/></linearGradient></defs><rect width='1400' height='900' fill='url(%23bgB)'/><rect x='160' y='280' width='1080' height='320' rx='26' fill='url(%23woodB)' opacity='0.95'/><rect x='220' y='330' width='960' height='220' rx='18' fill='%23f7f9fb'/><rect x='220' y='430' width='960' height='30' fill='%232a6f8e' opacity='0.65'/><rect x='220' y='460' width='960' height='30' fill='%23307fa1' opacity='0.65'/><rect x='300' y='350' width='180' height='80' fill='%23e8f3ff' opacity='0.9'/><rect x='520' y='350' width='180' height='80' fill='%23e4f0ff' opacity='0.9'/><rect x='740' y='350' width='180' height='80' fill='%23e8f3ff' opacity='0.9'/><rect x='960' y='350' width='180' height='80' fill='%23e4f0ff' opacity='0.9'/><rect x='420' y='330' width='560' height='30' rx='12' fill='%23d3b893' opacity='0.9'/><rect x='640' y='280' width='160' height='60' rx='14' fill='%23f2d3a0' opacity='0.9'/><rect x='380' y='380' width='640' height='140' rx='14' fill='url(%23greenB)' opacity='0.6'/></svg>"
-  - title: Boomgaard Hof
-    caption: "Binnenplaats met houten veranda’s en een groene boomgaard."
-    image: "data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='1400' height='900' viewBox='0 0 1400 900'><defs><linearGradient id='bgC' x1='0' y1='0' x2='1' y2='1'><stop offset='0%' stop-color='%23f8f5ed'/><stop offset='100%' stop-color='%23e9dfcf'/></linearGradient><linearGradient id='woodC' x1='0' y1='0' x2='0' y2='1'><stop offset='0%' stop-color='%238b4d25'/><stop offset='100%' stop-color='%2357341b'/></linearGradient></defs><rect width='1400' height='900' fill='url(%23bgC)'/><rect x='200' y='260' width='1000' height='380' rx='22' fill='url(%23woodC)' opacity='0.95'/><rect x='260' y='320' width='880' height='260' rx='18' fill='%23f7f4ef'/><rect x='280' y='340' width='240' height='120' fill='%23e9f4ff' opacity='0.9'/><rect x='880' y='340' width='240' height='120' fill='%23e6f0ff' opacity='0.9'/><rect x='560' y='340' width='280' height='120' fill='%23e4f0ff' opacity='0.9'/><rect x='260' y='520' width='880' height='40' fill='%23c6b097' opacity='0.9'/><circle cx='700' cy='450' r='150' fill='%2385aa73' opacity='0.55'/><circle cx='520' cy='460' r='70' fill='%2381a169' opacity='0.65'/><circle cx='880' cy='460' r='70' fill='%2381a169' opacity='0.65'/><rect x='620' y='260' width='160' height='60' rx='14' fill='%23f1d29f' opacity='0.9'/></svg>"
-  - title: Bosrand Patio
-    caption: "Met hout beklede volumes rond een met bomen gevulde patio."
-    image: "data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='1400' height='900' viewBox='0 0 1400 900'><defs><linearGradient id='bgD' x1='0' y1='0' x2='1' y2='0'><stop offset='0%' stop-color='%23eef6ef'/><stop offset='100%' stop-color='%23d8e3d9'/></linearGradient><linearGradient id='woodD' x1='0' y1='0' x2='1' y2='0'><stop offset='0%' stop-color='%23874623'/><stop offset='100%' stop-color='%2356311b'/></linearGradient></defs><rect width='1400' height='900' fill='url(%23bgD)'/><rect x='180' y='280' width='1040' height='340' rx='24' fill='url(%23woodD)' opacity='0.95'/><rect x='240' y='330' width='920' height='200' rx='16' fill='%23f8f9f7'/><rect x='260' y='350' width='260' height='140' fill='%23e7f1ff' opacity='0.9'/><rect x='880' y='350' width='260' height='140' fill='%23e2edff' opacity='0.9'/><rect x='520' y='350' width='360' height='140' fill='%23e7f1ff' opacity='0.9'/><rect x='240' y='510' width='920' height='30' fill='%23cbb59a' opacity='0.9'/><circle cx='700' cy='430' r='120' fill='%2382a677' opacity='0.65'/><circle cx='600' cy='430' r='70' fill='%2383a979' opacity='0.55'/><circle cx='800' cy='430' r='70' fill='%2383a979' opacity='0.55'/><rect x='600' y='280' width='200' height='60' rx='14' fill='%23f2d4a4' opacity='0.9'/></svg>"
-  - title: Hof met Passerelle
-    caption: "Verbonden houten woningen rond een verhoogde groene hof."
-    image: "data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='1400' height='900' viewBox='0 0 1400 900'><defs><linearGradient id='bgE' x1='0' y1='0' x2='1' y2='1'><stop offset='0%' stop-color='%23f4f5fa'/><stop offset='100%' stop-color='%23dcdfe7'/></linearGradient><linearGradient id='woodE' x1='0' y1='0' x2='1' y2='0'><stop offset='0%' stop-color='%23894a22'/><stop offset='100%' stop-color='%2359331b'/></linearGradient></defs><rect width='1400' height='900' fill='url(%23bgE)'/><rect x='200' y='280' width='1000' height='320' rx='22' fill='url(%23woodE)' opacity='0.95'/><rect x='240' y='330' width='920' height='220' rx='18' fill='%23f8f9fb'/><rect x='240' y='510' width='920' height='26' fill='%23c6b297' opacity='0.9'/><rect x='260' y='350' width='220' height='110' fill='%23e7f2ff' opacity='0.9'/><rect x='520' y='350' width='220' height='110' fill='%23e2edff' opacity='0.9'/><rect x='780' y='350' width='220' height='110' fill='%23e7f2ff' opacity='0.9'/><rect x='1040' y='350' width='120' height='110' fill='%23e2edff' opacity='0.9'/><rect x='420' y='440' width='560' height='30' rx='10' fill='%23f2d3a3' opacity='0.85'/><circle cx='700' cy='430' r='110' fill='%2383a874' opacity='0.6'/><circle cx='620' cy='430' r='60' fill='%237ea06e' opacity='0.55'/><circle cx='780' cy='430' r='60' fill='%237ea06e' opacity='0.55'/></svg>"
-  - title: Boskamer Hofje
-    caption: "Kleine houten paviljoens rond een dicht beplante binnentuin."
-    image: "data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='1400' height='900' viewBox='0 0 1400 900'><defs><linearGradient id='bgF' x1='0' y1='0' x2='1' y2='0'><stop offset='0%' stop-color='%23f6f3ed'/><stop offset='100%' stop-color='%23e4dbcf'/></linearGradient><linearGradient id='woodF' x1='0' y1='0' x2='1' y2='0'><stop offset='0%' stop-color='%23894b24'/><stop offset='100%' stop-color='%235b341c'/></linearGradient></defs><rect width='1400' height='900' fill='url(%23bgF)'/><rect x='180' y='280' width='1040' height='340' rx='24' fill='url(%23woodF)' opacity='0.95'/><rect x='240' y='330' width='920' height='220' rx='18' fill='%23f8f8f6'/><rect x='260' y='350' width='200' height='140' fill='%23e6f0ff' opacity='0.9'/><rect x='500' y='350' width='200' height='140' fill='%23e2ecff' opacity='0.9'/><rect x='740' y='350' width='200' height='140' fill='%23e6f0ff' opacity='0.9'/><rect x='980' y='350' width='160' height='140' fill='%23e2ecff' opacity='0.9'/><rect x='240' y='510' width='920' height='30' fill='%23c9b59a' opacity='0.9'/><circle cx='700' cy='430' r='120' fill='%2385ad7c' opacity='0.62'/><circle cx='620' cy='430' r='70' fill='%2380a475' opacity='0.55'/><circle cx='780' cy='430' r='70' fill='%2380a475' opacity='0.55'/><rect x='600' y='280' width='200' height='60' rx='14' fill='%23f1d4a4' opacity='0.9'/></svg>"
+title: Houthof — Coming Soon
+hide_header: true
+hide_footer: true
+body_class: coming-page
+hero_image: "{{ '/assets/images/coming-soon.png' | relative_url }}"
 ---
 
-<section class="hero hero--tight">
-  <p class="kicker">Houten hofjes</p>
-  <h1>Verbonden huizen rondom groene binnentuinen.</h1>
-  <p class="lede">Een visuele selectie van hofjes in hout, met bosrijke ruimtes tussen de woningen.</p>
-</section>
-
-<section class="section" id="work">
-  <div class="gallery-grid gallery-grid--large">
-    {% for item in page.gallery %}
-    <article class="gallery-card">
-      <div class="gallery-card__image">
-        <img src="{{ item.image }}" alt="{{ item.title }}">
+<section class="coming-hero">
+  <div class="coming-hero__media" style="background-image: url({{ page.hero_image }});">
+    <div class="coming-hero__overlay"></div>
+    <div class="coming-hero__content">
+      <p class="kicker">Houthof</p>
+      <h1>Coming soon</h1>
+      <p class="lede">Een nieuwe houten hof is in ontwikkeling. Binnenkort meer.</p>
+      <div class="coming-cta">
+        <a class="button" href="mailto:hello@houthof.studio">Contact</a>
       </div>
-      <div class="gallery-card__body">
-        <p class="kicker">{{ item.title }}</p>
-        <p>{{ item.caption }}</p>
-      </div>
-    </article>
-    {% endfor %}
+    </div>
   </div>
 </section>
