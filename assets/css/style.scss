@@ -32,9 +32,9 @@ header {
 }
 
 main {
-  max-width: 1200px;
+  max-width: none;
   margin: 0 auto;
-  padding: 0 1.25rem 3rem;
+  padding: 0;
   text-align: center;
 }
 
@@ -330,16 +330,16 @@ footer {
   width: 100%;
   min-height: 100vh;
   margin: 0;
-  padding: clamp(1rem, 4vw, 2rem) 1rem;
+  padding: clamp(1rem, 4vw, 1.75rem) 1rem;
   display: grid;
   place-items: center;
 }
 
 .coming-frame {
   position: relative;
-  width: min(1400px, 95vw);
-  height: clamp(70vh, 80vw, 90vh);
-  border-radius: 22px;
+  width: min(1200px, 90vw);
+  height: clamp(65vh, 75vw, 85vh);
+  border-radius: 20px;
   overflow: hidden;
   background: #101010;
   border: 1px solid rgba(255, 255, 255, 0.08);
