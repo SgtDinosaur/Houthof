@@ -323,7 +323,7 @@ footer {
 }
 
 .coming-page {
-  background: #050505;
+  background: radial-gradient(circle at 50% 50%, rgba(255, 255, 255, 0.04) 0%, rgba(0, 0, 0, 0.35) 70%), #1b1b1b;
 }
 
 .coming-hero {
@@ -341,9 +341,9 @@ footer {
   height: clamp(70vh, 80vw, 90vh);
   border-radius: 22px;
   overflow: hidden;
-  background: #050505;
-  border: 1px solid rgba(255, 255, 255, 0.06);
-  box-shadow: 0 28px 90px rgba(0, 0, 0, 0.45);
+  background: #101010;
+  border: 1px solid rgba(255, 255, 255, 0.08);
+  box-shadow: 0 28px 90px rgba(0, 0, 0, 0.42);
 }
 
 .coming-hero__media {
