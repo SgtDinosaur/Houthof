@@ -390,6 +390,7 @@ footer {
   text-transform: uppercase;
   letter-spacing: 0.08em;
   gap: 0.4rem;
+  transform: translateY(6%);
 
   .headline-kicker {
     font-size: clamp(3.2rem, 8vw, 5.6rem);
