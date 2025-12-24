@@ -3,7 +3,7 @@
 
 $color-ink: #1c110c;
 $color-muted: #4a3d37;
-$color-accent: #d4af6a;
+$color-accent: #b58a3c;
 $color-soft: #f5ede4;
 $color-surface: #ffffff;
 $color-line: #e5dcd4;
@@ -378,7 +378,7 @@ footer {
   text-transform: uppercase;
   letter-spacing: 0.08em;
   gap: 0.4rem;
-  transform: translateY(6%);
+  transform: translateY(0%);
 
   .headline-kicker {
     font-size: clamp(3.2rem, 8vw, 5.6rem);
@@ -403,8 +403,9 @@ footer {
 
 .coming-cta--overlay {
   position: absolute;
-  bottom: 1.5rem;
-  right: 1.5rem;
+  inset: 0;
+  display: grid;
+  place-items: center;
 }
 
 @media (max-width: 720px) {
