@@ -20,8 +20,8 @@
 
 title: Houthof
 description: A beautiful collection of wooden architecture
-baseurl: "/Houthof"
-url: "https://sgtdinosaur.github.io"
+baseurl: ""
+url: "https://houthof.com"
 
 # Build settings
 markdown: kramdown
