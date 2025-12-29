@@ -17,7 +17,7 @@ hero_image: "/assets/images/coming-soon.png"
         <p class="headline-main">Coming soon</p>
       </div>
       <div class="coming-cta coming-cta--overlay">
-        <a class="button" href="mailto:q.odding@outlook.com">Contact</a>
+        <a class="button" href="mailto:info@houthof.com">Contact</a>
       </div>
     </div>
   </div>
